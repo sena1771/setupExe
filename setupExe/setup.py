@@ -92,7 +92,7 @@ def extract_files():
         ok_button.pack(side=tk.LEFT, padx=20, pady=20) 
         cancel_button.pack_forget()
     else:
-         #print("IPP Tool Archive is not found")
+         #print(" Archive is not found")
          info_label.config(state = 'normal')
          info_label.delete(1.0,tk.END)
          #info_label.config(text="Download operation is failed")
@@ -117,7 +117,7 @@ root.iconbitmap(icon_path)
 root.eval('tk::PlaceWindow . center') #centers window
 root.geometry('450x300')
 root.title("IPP Platform Configuration Tool")
-info_text = "IPP Platform Configuration Tool --- Version:" +version+" "+"will be downloaded.\nNew Updates;\n-DTN Interrack Switch Configuration\n-HSN Configuration\n-Report File Creation"
+info_text = "Archive--- Version:" +version+" "+"will be downloaded.\nNew Updates;\n- Configuration\n-HSN Configuration\n-Report File Creation"
 info_label = tk.Text(root,height= 10, width = 50)
 info_label.insert(tk.END, info_text)
 info_label.pack(pady=10,padx=10)
