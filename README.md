@@ -1,4 +1,6 @@
 
+DO NOT FORGET THAT THIS PYTHON CODE ONLY CAN WORK WITH PYINSTALLER PACKAGES!
+
 This code can create an exe for the application downloadings or updatings.
 run setup script:
 
